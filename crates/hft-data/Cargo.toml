@@ -1,0 +1,9 @@
+[package]
+name = "hft-data"
+edition.workspace = true
+version.workspace = true
+
+[dependencies]
+bytemuck = { version = "1.25.2", features = ["derive"] }
+memmap2 = "0.9.11"
+rustc-hash = "2.1.3"

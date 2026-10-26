@@ -1,0 +1,8 @@
+[package]
+name = "hft-book"
+edition.workspace = true
+version.workspace = true
+
+[dependencies]
+hft-data = { version = "0.1.0", path = "../hft-data" }
+rustc-hash = "2.1.3"

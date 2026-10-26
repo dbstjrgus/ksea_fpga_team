@@ -1,0 +1,9 @@
+[package]
+name = "hft-strategies"
+edition.workspace = true
+version.workspace = true
+
+[dependencies]
+hft-book = { version = "0.1.0", path = "../hft-book" }
+hft-data = { version = "0.1.0", path = "../hft-data" }
+hft-sim = { version = "0.1.0", path = "../hft-sim" }
